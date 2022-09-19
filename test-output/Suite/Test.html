@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 19 16:08:59 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19846 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.getlistresourses.f()'><b>f</b><br>Test class: TestCases.getlistresourses</td>
+<td></td>
+<td>0</td>
+<td>TestCases.getlistresourses@59fd97a8</td></tr>
+<tr>
+<td title='TestCases.postloginunsucess.f()'><b>f</b><br>Test class: TestCases.postloginunsucess</td>
+<td></td>
+<td>0</td>
+<td>TestCases.postloginunsucess@1d9b7cce</td></tr>
+<tr>
+<td title='TestCases.put.f()'><b>f</b><br>Test class: TestCases.put</td>
+<td></td>
+<td>1</td>
+<td>TestCases.put@4d9e68d0</td></tr>
+<tr>
+<td title='TestCases.getdelayedresponse.f()'><b>f</b><br>Test class: TestCases.getdelayedresponse</td>
+<td></td>
+<td>3</td>
+<td>TestCases.getdelayedresponse@dbf57b3</td></tr>
+<tr>
+<td title='TestCases.Validsingleusers.f()'><b>f</b><br>Test class: TestCases.Validsingleusers</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Validsingleusers@402bba4f</td></tr>
+<tr>
+<td title='TestCases.getsingleresourses.f()'><b>f</b><br>Test class: TestCases.getsingleresourses</td>
+<td></td>
+<td>0</td>
+<td>TestCases.getsingleresourses@f5ac9e4</td></tr>
+<tr>
+<td title='TestCases.Postregistersucess.f()'><b>f</b><br>Test class: TestCases.Postregistersucess</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Postregistersucess@61862a7f</td></tr>
+<tr>
+<td title='TestCases.patch.f()'><b>f</b><br>Test class: TestCases.patch</td>
+<td></td>
+<td>2</td>
+<td>TestCases.patch@42e99e4a</td></tr>
+<tr>
+<td title='TestCases.invalidDelete.f()'><b>f</b><br>Test class: TestCases.invalidDelete</td>
+<td></td>
+<td>1</td>
+<td>TestCases.invalidDelete@52e6fdee</td></tr>
+<tr>
+<td title='TestCases.validget.f()'><b>f</b><br>Test class: TestCases.validget</td>
+<td></td>
+<td>1</td>
+<td>TestCases.validget@72057ecf</td></tr>
+<tr>
+<td title='TestCases.postregisterunsucess.f()'><b>f</b><br>Test class: TestCases.postregisterunsucess</td>
+<td></td>
+<td>0</td>
+<td>TestCases.postregisterunsucess@441772e</td></tr>
+<tr>
+<td title='TestCases.validdelete.f()'><b>f</b><br>Test class: TestCases.validdelete</td>
+<td></td>
+<td>0</td>
+<td>TestCases.validdelete@14dd9eb7</td></tr>
+<tr>
+<td title='TestCases.postcreate.f()'><b>f</b><br>Test class: TestCases.postcreate</td>
+<td></td>
+<td>1</td>
+<td>TestCases.postcreate@384ad17b</td></tr>
+<tr>
+<td title='TestCases.postLoginsucess.f()'><b>f</b><br>Test class: TestCases.postLoginsucess</td>
+<td></td>
+<td>1</td>
+<td>TestCases.postLoginsucess@7334aada</td></tr>
+<tr>
+<td title='TestCases.SingleUserNotFound.f()'><b>f</b><br>Test class: TestCases.SingleUserNotFound</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SingleUserNotFound@795cd85e</td></tr>
+<tr>
+<td title='TestCases.SingleResoursesnotfound.f()'><b>f</b><br>Test class: TestCases.SingleResoursesnotfound</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SingleResoursesnotfound@123ef382</td></tr>
+<tr>
+<td title='TestCases.postinvalidregisteruncsess1.f()'><b>f</b><br>Test class: TestCases.postinvalidregisteruncsess1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.postinvalidregisteruncsess1@6c80d78a</td></tr>
+</table><p>
+</body>
+</html>

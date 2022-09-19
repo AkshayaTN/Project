@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-19T16:08:59 IST" name="Suite" finished-at="2022-09-19T16:09:19 IST" duration-ms="19846">
+    <groups>
+    </groups>
+    <test started-at="2022-09-19T16:08:59 IST" name="Test" finished-at="2022-09-19T16:09:19 IST" duration-ms="19846">
+      <class name="TestCases.validdelete">
+        <test-method signature="f()[pri:0, instance:TestCases.validdelete@14dd9eb7]" started-at="2022-09-19T16:09:15 IST" name="f" finished-at="2022-09-19T16:09:16 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.validdelete -->
+      <class name="TestCases.Postregistersucess">
+        <test-method signature="f()[pri:0, instance:TestCases.Postregistersucess@61862a7f]" started-at="2022-09-19T16:09:08 IST" name="f" finished-at="2022-09-19T16:09:09 IST" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.Postregistersucess -->
+      <class name="TestCases.postregisterunsucess">
+        <test-method signature="f()[pri:0, instance:TestCases.postregisterunsucess@441772e]" started-at="2022-09-19T16:09:09 IST" name="f" finished-at="2022-09-19T16:09:10 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.postregisterunsucess -->
+      <class name="TestCases.patch">
+        <test-method signature="f()[pri:0, instance:TestCases.patch@42e99e4a]" started-at="2022-09-19T16:09:13 IST" name="f" finished-at="2022-09-19T16:09:15 IST" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.patch -->
+      <class name="TestCases.postloginunsucess">
+        <test-method signature="f()[pri:0, instance:TestCases.postloginunsucess@1d9b7cce]" started-at="2022-09-19T16:09:11 IST" name="f" finished-at="2022-09-19T16:09:12 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.postloginunsucess -->
+      <class name="TestCases.postLoginsucess">
+        <test-method signature="f()[pri:0, instance:TestCases.postLoginsucess@7334aada]" started-at="2022-09-19T16:09:10 IST" name="f" finished-at="2022-09-19T16:09:11 IST" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.postLoginsucess -->
+      <class name="TestCases.SingleResoursesnotfound">
+        <test-method signature="f()[pri:0, instance:TestCases.SingleResoursesnotfound@123ef382]" started-at="2022-09-19T16:09:03 IST" name="f" finished-at="2022-09-19T16:09:03 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.SingleResoursesnotfound -->
+      <class name="TestCases.SingleUserNotFound">
+        <test-method signature="f()[pri:0, instance:TestCases.SingleUserNotFound@795cd85e]" started-at="2022-09-19T16:09:01 IST" name="f" finished-at="2022-09-19T16:09:02 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.SingleUserNotFound -->
+      <class name="TestCases.Validsingleusers">
+        <test-method signature="f()[pri:0, instance:TestCases.Validsingleusers@402bba4f]" started-at="2022-09-19T16:09:01 IST" name="f" finished-at="2022-09-19T16:09:01 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.Validsingleusers -->
+      <class name="TestCases.getdelayedresponse">
+        <test-method signature="f()[pri:0, instance:TestCases.getdelayedresponse@dbf57b3]" started-at="2022-09-19T16:09:03 IST" name="f" finished-at="2022-09-19T16:09:07 IST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.getdelayedresponse -->
+      <class name="TestCases.getlistresourses">
+        <test-method signature="f()[pri:0, instance:TestCases.getlistresourses@59fd97a8]" started-at="2022-09-19T16:09:02 IST" name="f" finished-at="2022-09-19T16:09:02 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.getlistresourses -->
+      <class name="TestCases.getsingleresourses">
+        <test-method signature="f()[pri:0, instance:TestCases.getsingleresourses@f5ac9e4]" started-at="2022-09-19T16:09:02 IST" name="f" finished-at="2022-09-19T16:09:03 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.getsingleresourses -->
+      <class name="TestCases.postinvalidregisteruncsess1">
+        <test-method signature="f()[pri:0, instance:TestCases.postinvalidregisteruncsess1@6c80d78a]" started-at="2022-09-19T16:09:18 IST" name="f" finished-at="2022-09-19T16:09:19 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.postinvalidregisteruncsess1 -->
+      <class name="TestCases.postcreate">
+        <test-method signature="f()[pri:0, instance:TestCases.postcreate@384ad17b]" started-at="2022-09-19T16:09:07 IST" name="f" finished-at="2022-09-19T16:09:08 IST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.postcreate -->
+      <class name="TestCases.validget">
+        <test-method signature="f()[pri:0, instance:TestCases.validget@72057ecf]" started-at="2022-09-19T16:08:59 IST" name="f" finished-at="2022-09-19T16:09:01 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.validget -->
+      <class name="TestCases.put">
+        <test-method signature="f()[pri:0, instance:TestCases.put@4d9e68d0]" started-at="2022-09-19T16:09:12 IST" name="f" finished-at="2022-09-19T16:09:13 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.put -->
+      <class name="TestCases.invalidDelete">
+        <test-method signature="f()[pri:0, instance:TestCases.invalidDelete@52e6fdee]" started-at="2022-09-19T16:09:16 IST" name="f" finished-at="2022-09-19T16:09:18 IST" duration-ms="1628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestCases.invalidDelete -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
